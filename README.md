@@ -58,4 +58,9 @@ MariaDB -> 3306
 Wordpress -> 9000
 
 ## 📂 Project structure 
+
+Belows is a picture showing the structure of the services and how they work with each other.
+
 <img src = https://github.com/lgernido/Inception/blob/main/Screenshot%20from%202025-02-25%2013-25-13.png>
+
+The .env file is absent from the repository as it contains sensitive information such as passwords.
