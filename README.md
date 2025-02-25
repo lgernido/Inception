@@ -16,7 +16,7 @@ It simplifies the management of projects with several services (like a database,
 
 All the services will have their own images that are built with a Dockerfile.
 
-# 🌐 Nginx
+### 🌐 Nginx
 
 The first service that we configure in this project is **nginx**
 
@@ -29,14 +29,14 @@ Enabling TLS with Nginx improves security, trust, and compliance with industry s
 
 In the **Nginx Image**, we hence generate a certification and a key to sign the certification in order to prove the server is secure. This is how we will be able to connect through ```https``` instead of ```http```.
 
-# 🗄️ MariaDB
+### 🗄️ MariaDB
 
 The second service that we configure in Inception is **MariaDB**
 
 MariaDB is an open-source relational database management system that is a fork of MySQL. It is designed to be fully compatible with MySQL, meaning you can use it as a drop-in replacement. 
 MariaDB offers improved performance, additional features, and enhanced security, while maintaining the same structure and functionality as MySQL for ease of use in database applications. 
 
-# ✍️ Wordpress
+### ✍️ Wordpress
 
 The last container is **Wordpress**
 
