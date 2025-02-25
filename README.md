@@ -48,4 +48,11 @@ In this project, we configure Wordpress with php-fpm in the same container.
 
 ## 🔗 Docker-compose 
 
-All the containers work together through the ```docker-compose.yml``` file that is 
+All the containers work together through the ```docker-compose.yml``` file. It builds the images for the 3 services and also initializes the volumes necessary as well as
+the ```docker-network``` that links the 3 containers. In order for the containers to communicate properly, we open different ports for the services.
+Nginx -> 443
+MariaDB -> 3306
+Wordpress -> 9000
+
+## 📂 Project structure 
+<img src = https://github.com/lgernido/Inception/blob/main/Screenshot%20from%202025-02-25%2013-25-13.png>
